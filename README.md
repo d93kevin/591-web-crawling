@@ -1,6 +1,6 @@
 # 591租屋網爬蟲暨AWS雲端架構
 ### 說明
-本項目利用Amazon Web Services實作，使用AWS Cloud9開發環境
+本項目利用Amazon Web Services實作，使用AWS Cloud9開發環境以及Python語言
 ## 整體架構
 ![591-architecture](https://user-images.githubusercontent.com/25980099/150773402-ed0ea8cf-d14e-4c64-b46e-f4d0a0087255.jpg)
 ## 一、先將591租屋網所有物件資訊爬下來並存到Amazon Simple Storage Service(AWS S3)

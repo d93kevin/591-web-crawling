@@ -2,7 +2,7 @@
 ### 說明
 本項目利用Amazon Web Services實作，使用AWS Cloud9開發環境
 ## 整體架構
-[架構圖](https://591-architecture-image.s3.amazonaws.com/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2+2022-01-24+190454.jpg)
+![591-architecture](https://user-images.githubusercontent.com/25980099/150773402-ed0ea8cf-d14e-4c64-b46e-f4d0a0087255.jpg)
 ## 一、先將591租屋網所有物件資訊爬下來並存到Amazon Simple Storage Service(AWS S3)
 這個步驟本來希望用AWS Lambda完成，然而lambda卻僅有15分鐘執行時間的限制，先行實測過整個台中市租屋資料爬下來的時間長達1.5小時，只好放棄改用與lambda類似，但幾乎沒限制的AWS Fargate，透過Docker container執行任務，設定每天固定時間觸發執行一次
 ### Step 1: import所需套件和前置作業
